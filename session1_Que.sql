@@ -23,4 +23,3 @@ CREATE ROLE Analyst;
 
 GRANT SELECT ON Employee_View TO Analyst;
 
-SELECT salary FROM Employee e1 WHERE (3 - 1) = ( SELECT COUNT(DISTINCT salary) FROM Employee e2 WHERE e2.salary > e1.salary );
