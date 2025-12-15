@@ -1,3 +1,6 @@
+--23BCS10652
+--KHUSHI KHEMKA
+--DCPD_WWC1
 SELECT 
     p.product_name,
     SUM(o.unit) AS total_units
