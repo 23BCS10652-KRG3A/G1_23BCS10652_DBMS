@@ -1,4 +1,6 @@
-
+--23BCS10652
+--KHUSHI KHEMKA
+--DCPD_WWC1
 CREATE TABLE Activity (
     machine_id     INT,
     process_id     INT,
